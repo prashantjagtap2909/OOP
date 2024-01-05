@@ -36,6 +36,12 @@ class Student
     int getroll_number(){
         return roll_number;
     }
+    string get_grade(int pin){
+        if(pin == 123) 
+        return grade;
+
+        return "";
+    }
 };
 
 int main(){
@@ -49,4 +55,6 @@ int main(){
     S1.getname();
     S1.getage();
     cout<<S1.getroll_number();
+
+    cout<<S1.get_grade(123);
 }
