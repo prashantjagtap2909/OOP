@@ -30,7 +30,12 @@ class Student
         cout<<name<<endl;
     };
 
-    
+    void getage(){
+        cout<<age<<endl;
+    }
+    int getroll_number(){
+        return roll_number;
+    }
 };
 
 int main(){
@@ -42,5 +47,6 @@ int main(){
 
     // calling getter function
     S1.getname();
-  
+    S1.getage();
+    cout<<S1.getroll_number();
 }
