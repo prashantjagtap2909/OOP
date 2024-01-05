@@ -17,4 +17,13 @@ int main(){
     S1.grade = "A";
 
     cout<<S1.age<<" ";
+
+
+    Student S2;
+    S2.name = "Jp";
+    S2.age = 22;
+    S2.roll_number = 24;
+    S2.grade = "A+";
+
+    cout<<S2.age<<" ";
 }
