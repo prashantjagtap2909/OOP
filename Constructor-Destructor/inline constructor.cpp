@@ -34,6 +34,12 @@ class Customer
         cout<<name<<" "<<ac<<" "<<balance<<" "<<endl;
     }
 
+
+    // inline constructor
+    inline Customer(string a, int b , int c):name(a), ac(b),balance(c){
+
+    }
+
 };
 
 int main(){
