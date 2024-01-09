@@ -9,10 +9,14 @@ class Customer
     public:
 
     Customer(){
+        name = "Prashant";
+        data = new int;
+        *data = 10;
         cout<<"constructor is called"<<endl;
     }
     // Destructor
     ~Customer(){
+        delete data;
         cout<<"Destructor is called"<<endl;
     }
 
