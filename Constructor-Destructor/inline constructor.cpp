@@ -16,15 +16,7 @@ class Customer
         balance = 100;
     }
 
-    // Parameterized consructor
-
-    // This pointer
-    Customer(string name , int ac , int balance)                
-    {       
-        this->name = name ;
-        this->ac = ac ;
-        this->balance = balance;
-    }
+    
     // Construcor overloading
     Customer(string a , int b){
         name = a;

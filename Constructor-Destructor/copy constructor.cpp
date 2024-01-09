@@ -25,20 +25,35 @@ class Customer
         ac = b;
         balance = c;
     }
-
+    Customer(string a , int b){
+        name = a;
+        ac = b;
+    }
    
     void display(){
         cout<<name<<" "<<ac<<" "<<balance<<" "<<endl;
     }
-
+    Customer(Customer &B){
+        name = B.name;
+        ac = B.ac;
+        balance = B.balance;
+    }
 };
 
 int main(){
     Customer A1;
     Customer A2("PrashantJ" , 121, 100000);
-    
+    Customer A3("Navnath" ,  1);
     A1.display();
     A2.display();
+    A3.display();
+
+    Customer A4(A3);
+    A4.display();
+
+    Customer A5;
+    A5 = A3;     // using assignment operator
+    A5.display();
    
 }   
 
