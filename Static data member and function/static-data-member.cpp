@@ -38,7 +38,7 @@ int main(){
     Customer A1("Prashant" , 1 , 1000);
     Customer A2("Navnath" , 2 , 2000);
     Customer A3("Rohit" , 3,3000);
-    
+   
     A2.display_total();
     
 
