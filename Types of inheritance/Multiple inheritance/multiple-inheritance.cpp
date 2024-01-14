@@ -10,6 +10,11 @@ class Engineer
     public:
     string specilization;
 
+    Engineer()
+    {
+        cout<<"Hello engineer"<<endl;
+    }
+
 
     void work()
     {
@@ -23,6 +28,11 @@ class Youtuber
     public:
     int subscriber;
 
+    
+    Youtuber()
+    {
+        cout<<"Hello Youtuber"<<endl;
+    }
 
     void contentCreator()
     {
@@ -35,6 +45,13 @@ class CodeTeacher: public Engineer, public Youtuber
     public:
     string name;
 
+
+    CodeTeacher()
+    {
+        cout<<"Hello coder"<<endl;
+    }
+
+    
     CodeTeacher(string name , string specilization, int subscriber)
     {
         this->name = name;
@@ -56,5 +73,5 @@ int main()
     CodeTeacher A1("Aditya" , "CSE" , 400000);
     A1.showcase();  // accessible
    //  A1.money() ; // not accessible due to private not inherit
-    
+
 }
