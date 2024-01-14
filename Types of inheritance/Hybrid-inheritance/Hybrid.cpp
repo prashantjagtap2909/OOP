@@ -54,5 +54,8 @@ class Girl: public Student, public Female
 int main()
 {
     Girl G1;
-    G1.GirlPrint();
+    G1.GirlPrint();    // can inherit
+
+    Boy B1;
+    B1.MalePrint();   // can inherit due to public 
 }
