@@ -48,4 +48,6 @@ int main(){
     A1.work();  //accessible
     A1.monthly_salary();  // accessible
     A1.introduce();   // accessible
+    A1.department = "R&D";  // public accessible 
+    A1.work();            
 }
