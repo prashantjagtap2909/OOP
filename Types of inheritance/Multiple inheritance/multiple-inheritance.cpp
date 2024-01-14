@@ -4,6 +4,9 @@ using namespace std;
 
 class Engineer
 {
+    void money(){
+        cout<<"Hello money"<<endl;
+    }
     public:
     string specilization;
 
@@ -51,6 +54,7 @@ class CodeTeacher: public Engineer, public Youtuber
 int main()
 {
     CodeTeacher A1("Aditya" , "CSE" , 400000);
-    A1.showcase();
-
+    A1.showcase();  // accessible
+   //  A1.money() ; // not accessible due to private not inherit
+    
 }
