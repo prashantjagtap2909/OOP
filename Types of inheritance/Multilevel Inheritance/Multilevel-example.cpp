@@ -45,5 +45,7 @@ class Manager : public Employee{
 
 int main(){
     Manager A1("Prashant" , 20000, "Finanace");
-    A1.work();
+    A1.work();  //accessible
+    A1.monthly_salary();  // accessible
+    A1.introduce();   // accessible
 }
