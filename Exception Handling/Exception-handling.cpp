@@ -16,12 +16,11 @@ class Customer
 
     void deposit(int amount )
     {
-        if(amount > 0){
-            balance += amount;
-            cout<<amount<<" is credited successfully"<<endl;
-        }else{
+        if(amount <= 0)
             throw "amount should be grater than 0";
-        }
+            
+        balance += amount;
+        cout<<amount<<" is credited successfully"<<endl;
 
     }
 
@@ -44,6 +43,13 @@ class Customer
 int main()
 {
     Customer C1("Prashant" , 5000, 10);
+    try{
     C1.deposit(100);
     C1.withdraw(6000);
+    C1.deposit(100);
+    }
+    catch(const char *e){
+        cout<<"exception occured : "<<e<<endl;
+    }
+    
 }
