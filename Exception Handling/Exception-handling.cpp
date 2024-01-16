@@ -19,6 +19,8 @@ class Customer
         if(amount > 0){
             balance += amount;
             cout<<amount<<" is credited successfully"<<endl;
+        }else{
+            throw "amount should be grater than 0";
         }
 
     }
@@ -26,7 +28,12 @@ class Customer
     void withdraw(int amount){
         if(amount > 0 && amount <= balance){
             balance -= amount;
-            cout<<amount<<"is debited successfully"<<endl;
+            cout<<amount<<" is debited successfully"<<endl;
+        }
+        else if(amount < 0){
+            throw "should be greater than 0";
+        }else{
+            throw "balance is low";
         }
     }
 
@@ -38,4 +45,5 @@ int main()
 {
     Customer C1("Prashant" , 5000, 10);
     C1.deposit(100);
+    C1.withdraw(6000);
 }
