@@ -12,11 +12,11 @@ int main()
 
 
     char c;
-    fin>>c;
+    c = fin.get();
     while(!fin.eof()){
         cout<<c;
-        fin>>c;
-    }
+        c = fin.get();
+    };
 
     fin.close();
 }

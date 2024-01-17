@@ -1,0 +1,4 @@
+original data
+89 52 45 63 10 
+ Sorted data
+10 45 52 63 89 
