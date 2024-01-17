@@ -12,5 +12,5 @@ int main()
     
     fout<<"Hello World";  //data to be written
 
-    fout.close();
+    fout.close();       // Release all resources
 }
