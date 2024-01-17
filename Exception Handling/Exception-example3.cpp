@@ -14,7 +14,7 @@ int main()
     }
 
     catch(const exception &e){
-        cout<<"Exception occurred due to line 9 "<<e.what()<<endl;
+        cout<<"\nException occurred due to line 9   - "<<e.what()<<endl;
     }
 
 }
