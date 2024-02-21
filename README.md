@@ -3,18 +3,23 @@
 
 [Table of Contect]
 1. [OOP Implementation]()
-     - [Empty Class]
-     - [Getter Function]
-     - [Setter Function]
-     - [Memory Allocation]
+     - [Empty Class]()
+     - [Getter Function]()
+     - [Setter Function]()
+     - [Memory Allocation]()
 2. [Constructor]()
      - [Constructor]()
-     - [Construcor-example]
-     - [copy constructor]
-     - [inline constructor]
-     - [parameterized constructor]
-     - [Constructor overloading]
+     - [Construcor-example]()
+     - [copy constructor]()
+     - [inline constructor]()
+     - [parameterized constructor]()
+     - [Constructor overloading]()
 3. [Destructor]()
-     - [Destructor example]
-4. [Inheritance]
-5. [Types of Inheritance]
+     - [Destructor example]()
+4. [Inheritance]()
+5. [Types of Inheritance]()
+    - [Single inheritance]()
+    - [Multiple inheritance]()
+    - [Multilevel inheritance]()
+    - [Hybrid inheritance]()
+    - [Multipath inheritance]()
