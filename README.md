@@ -27,8 +27,8 @@
     - [Hybrid inheritance]()
     - [Multipath inheritance]()
 9. [Polymorphism]()
-     - [Compile time]
-        - [Function overloading]
+     - [Compile time]()
+        - [Function overloading]()
         - [Operator overloading]()
      - [Run time(virtual function)]()
         - [Pure virual function]()
