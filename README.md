@@ -23,3 +23,11 @@
     - [Multilevel inheritance]()
     - [Hybrid inheritance]()
     - [Multipath inheritance]()
+6. [Polymorphism]()
+     - [Compile time]
+        - [Function overloading]
+        - [Operator overloading]()
+     - [Run time(virtual function)]()
+        - [Pure virual function]()
+7. [Exception Handling]()
+8. [File Handling]() 
